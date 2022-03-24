@@ -119,7 +119,7 @@
             "properties": [
                 {
                     "key":"storefrontContextRoot",
-                    "value":""
+                    "value":"/yacceleratorstorefront"
                 }
             ],
             "webapps": [
@@ -139,6 +139,10 @@
                   "name":"odata2webservices",
                   "contextPath":"/odata2webservices"
                },
+               {
+                "name": "yacceleratorstorefront",
+                "contextPath": "/yacceleratorstorefront"
+                },
                {
                 "name": "smartedit",
                 "contextPath": "/smartedit"
@@ -170,6 +174,22 @@
                 {
                 "name": "previewwebservices",
                 "contextPath": "/previewwebservices"
+                },
+                {
+                "name": "personalizationsmartedit",
+                "contextPath": "/personalizationsmartedit"
+                },
+                {
+                "name": "personalizationpromotionssmartedit",
+                "contextPath": "/personalizationpromotionssmartedit"
+                },
+                {
+                "name": "personalizationwebservices",
+                "contextPath": "/personalizationwebservices"
+                },
+                {
+                "name": "personalizationsearchsmartedit",
+                "contextPath": "/personalizationsearchsmartedit"
                 }
             ]
         },
