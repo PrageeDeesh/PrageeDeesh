@@ -10,6 +10,17 @@
             "csr": {
                 "webroot": "dist/spartacusstore/browser/"
             }
+        },
+        {
+            "name": "spartacuspowerstore",
+            "path": "spartacuspowerstore",
+            "ssr": {
+                "enabled": true,
+                "path": "dist/spartacuspowerstore/server/main.js"
+            },
+            "csr": {
+                "webroot": "dist/spartacuspowerstore/browser/"
+            }
         }
     ],
     "nodeVersion": "14"
