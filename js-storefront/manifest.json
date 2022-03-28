@@ -1,25 +1,14 @@
 {
     "applications": [
         {
-            "name": "spartacusstore",
-            "path": "spartacusstore",
+            "name": "globalstore",
+            "path": "globalstore",
             "ssr": {
                 "enabled": true,
-                "path": "dist/spartacusstore/server/main.js"
+                "path": "dist/globalstore/server/main.js"
             },
             "csr": {
-                "webroot": "dist/spartacusstore/browser/"
-            }
-        },
-        {
-            "name": "spartacuspowerstore",
-            "path": "spartacuspowerstore",
-            "ssr": {
-                "enabled": true,
-                "path": "dist/spartacuspowerstore/server/main.js"
-            },
-            "csr": {
-                "webroot": "dist/spartacuspowerstore/browser/"
+                "webroot": "dist/globalstore/browser/"
             }
         }
     ],
